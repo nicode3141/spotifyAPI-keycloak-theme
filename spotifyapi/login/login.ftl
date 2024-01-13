@@ -5,6 +5,7 @@
         
         <!--/opt/keycloak/bin/kc.sh build-->
     <#elseif section = "form">
+    <div class="loginWrapper">
     <div class='loginFormHeading'>You've been invited to collaborate to</div>
         <div id="kc-form">
           <div id="kc-form-wrapper">
@@ -12,7 +13,7 @@
 
           <div class='loginWrapperMain'>
             <div class='loginPgImgHelper'>
-                <img src='${url.resourcesPath}/img/playlistCover.jpg' class='loginPgImage' width=100 height=100 alt='Playlist Preview Image'>
+                <img src='${url.resourcesPath}/img/playlistCover.jpg' class='loginPgImage' alt='Playlist Preview Image'>
             </div>
             <div class='inviteMainTxt'>Schulball 2024</div>
             <div class='mainLoginField'>
@@ -95,7 +96,7 @@
                     </#if>
                 </div>
                 <div class='loginMainWidgetDiff'>
-                    <img src='${url.resourcesPath}/img/loginPageDiff.svg' width=300/>
+                    <img src='${url.resourcesPath}/img/loginPageDiff.svg' class="imgDivider" width=300/>
                 </div>
                 <a href='http://localhost:3000/playlist?pl=1DWeZYfgG7OZlyUFUiDai4&v=1' class='loginViewPlTxt'>view playlist</a>
             </div>
@@ -103,6 +104,9 @@
         </div>
         <div class="btmTxt">log in with your moodle credentials</div>        
         <script type="module" src="${url.resourcesPath}/js/passwordVisibility.js"></script>
+        </div>
+        <div class="addLegalInfo">Copyright © 2024 Nicolas Pfeifer. <span class="breakHelper">All rights reserved. </span><br/>
+ This site is licensed under the <a href="https://github.com/nicode3141/spotifyAPI-keycloak-theme/blob/main/LICENSE" class="legalMITLink">MIT License.</a></div>
     <#elseif section = "info" >
 
        
@@ -139,5 +143,6 @@
             </div>
         </#if>
     </#if>
+
 
 </@layout.registrationLayout>
