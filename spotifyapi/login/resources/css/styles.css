@@ -9,8 +9,9 @@ development, some features may not be available!
 */
 
 @font-face {
-  font-family: "Montserrat";
-  src: url("../fonts/Montserrat-VariableFont_wght.ttf") format("truetype");
+  font-family: 'Montserrat';
+  src: url('../fonts/montserrat-variablefont_wght-webfont.woff2') format('woff2'),
+       url('../fonts/montserrat-variablefont_wght-webfont.woff') format('woff');
 }
 
 :root {
@@ -90,7 +91,6 @@ development, some features may not be available!
     font-size: 30px;
     font-weight: 800;
     text-shadow: 3px 3px 4px var(--secondary-text-color);
-    letter-spacing: 2px;
   }
   
   #kc-form-login{
@@ -145,7 +145,7 @@ development, some features may not be available!
   }
   
   #username{
-    width: 200% !important;
+    max-width: 54vw;
     font-size: 20px;
     color: #858585;
     font-family: Montserrat;
@@ -162,6 +162,7 @@ development, some features may not be available!
   }
   
   #password{
+    max-width: 54vw;
     font-size: 20px;
     color: #858585;
     font-family: Montserrat;
@@ -225,7 +226,8 @@ development, some features may not be available!
   }
   
   .addLegalInfo{
-    margin-top: 16px;
+    position: absolute;
+    margin-top: 50px;
     text-align: center;
     color: var(--primary-text-color);
     font-weight: 500;
