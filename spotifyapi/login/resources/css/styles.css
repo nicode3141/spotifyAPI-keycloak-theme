@@ -149,7 +149,7 @@ development, some features may not be available!
     max-width: 54vw;
     font-size: 20px;
     color: #858585;
-    font-family: Montserrat;
+    font-family: 'Montserrat' , 'sans-serif';
     font-size: 20px;
     font-style: normal;
     font-weight: 500;
@@ -166,7 +166,7 @@ development, some features may not be available!
     max-width: 54vw;
     font-size: 20px;
     color: #858585;
-    font-family: Montserrat;
+    font-family: 'Montserrat' , 'sans-serif';
     font-size: 20px;
     font-style: normal;
     font-weight: 500;
@@ -381,7 +381,7 @@ development, some features may not be available!
   width: 200% !important;
   font-size: 20px;
   color: #858585;
-  font-family: Montserrat;
+  font-family: 'Montserrat', 'sans-serif';
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
@@ -397,7 +397,7 @@ development, some features may not be available!
 #password{
   font-size: 20px;
   color: #858585;
-  font-family: Montserrat;
+  font-family: 'Montserrat', 'sans-serif';
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
