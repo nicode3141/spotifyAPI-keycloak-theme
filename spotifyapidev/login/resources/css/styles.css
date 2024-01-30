@@ -9,7 +9,7 @@ development, some features may not be available!
 */
 
 @font-face {
-  font-family: "Montserrat";
+  font-family: 'Montserrat';
   src: url('../fonts/montserrat-variablefont_wght-webfont.woff2') format('woff2'),
        url('../fonts/montserrat-variablefont_wght-webfont.woff') format('woff');
 }
@@ -38,7 +38,7 @@ development, some features may not be available!
     display: flex !important;
     justify-content: center !important;
     align-items: center !important;
-    font-family: "Montserrat", sans-serif,  !important;
+    font-family: 'Montserrat', 'sans-serif' !important;
     background-color: var(--background-color);
     background: var(--background-color);
 
@@ -177,7 +177,7 @@ development, some features may not be available!
     max-width: 54vw;
     font-size: 20px;
     color: #858585;
-    font-family: 'Montserrat' , sans-serif;
+    font-family: 'Montserrat' , 'sans-serif';
     font-size: 20px;
     font-style: normal;
     font-weight: 500;
@@ -194,7 +194,7 @@ development, some features may not be available!
     max-width: 54vw;
     font-size: 20px;
     color: #858585;
-    font-family: 'Montserrat' , sans-serif;
+    font-family: 'Montserrat' , 'sans-serif';
     font-size: 20px;
     font-style: normal;
     font-weight: 500;
@@ -285,7 +285,7 @@ development, some features may not be available!
     display: flex !important;
     justify-content: center !important;
     align-items: center !important;
-    font-family: 'Montserrat', sans-serif !important;
+    font-family: 'Montserrat', 'sans-serif' !important;
     background-color: var(--background-color);
     background: var(--background-color);
   }
@@ -437,7 +437,7 @@ development, some features may not be available!
   width: 200% !important;
   font-size: 20px;
   color: #858585;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat', 'sans-serif';
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
@@ -453,7 +453,7 @@ development, some features may not be available!
 #password{
   font-size: 20px;
   color: #858585;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat', 'sans-serif';
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
