@@ -38,10 +38,9 @@ development, some features may not be available!
     display: flex !important;
     justify-content: center !important;
     align-items: center !important;
-    font-family: "Montserrat", sans-serif,  !important;
+    font-family: "Montserrat", sans-serif;
     background-color: var(--background-color);
     background: var(--background-color);
-
   }
 
   .login-content{
@@ -60,6 +59,7 @@ development, some features may not be available!
     color:var(--primary-text-color);
     font-size:16px;
     font-weight: 500;
+    font-family: "Montserrat", sans-serif;
   }
   
   .loginPgImage {
@@ -87,6 +87,7 @@ development, some features may not be available!
   }
   
   .inviteMainTxt{
+    font-family: "Montserrat", sans-serif;
     padding-top:5px;
     color: var(--mid-text-color);
     font-size: 30px;
@@ -236,6 +237,7 @@ development, some features may not be available!
   }
   
   .loginViewPlTxt{
+    font-family: "Montserrat", sans-serif;
     margin-top: 5px;
     margin-bottom: 5px;
     color: var(--mid-text-color);
@@ -249,12 +251,14 @@ development, some features may not be available!
   }
   
   .btmTxt{
+    font-family: "Montserrat", sans-serif;
     color: #929292;
     font-size:14px;
     font-weight: 500;
   }
   
   .addLegalInfo{
+    font-family: "Montserrat", sans-serif;
     position: absolute;
     margin-top: 50px;
     text-align: center;
