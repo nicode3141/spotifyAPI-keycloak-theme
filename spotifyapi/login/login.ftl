@@ -98,7 +98,7 @@
                 <div class='loginMainWidgetDiff'>
                     <img src='${url.resourcesPath}/img/loginPageDiff.svg' class="imgDivider" width=300/>
                 </div>
-                <a href='http://localhost:3000/playlist?pl=1DWeZYfgG7OZlyUFUiDai4&v=1' class='loginViewPlTxt'>view playlist</a>
+                <a href='https://nicodenetworks.com/playlist?pl=1DWeZYfgG7OZlyUFUiDai4&v=1' class='loginViewPlTxt'>view playlist</a>
             </div>
         </div>
         </div>
