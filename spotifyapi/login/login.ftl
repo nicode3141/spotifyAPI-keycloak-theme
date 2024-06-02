@@ -13,9 +13,9 @@
 
           <div class='loginWrapperMain'>
             <div class='loginPgImgHelper'>
-                <img src='${url.resourcesPath}/img/playlistCover.jpg' class='loginPgImage' alt='Playlist Preview Image'>
+                <img src='${url.resourcesPath}/img/playlistCover.png' class='loginPgImage' alt='Playlist Preview Image'>
             </div>
-            <div class='inviteMainTxt'>Schulball 2024</div>
+            <div class='inviteMainTxt'>Jukebox Festival</div>
             <div class='mainLoginField'>
                 <#if realm.password>
                     <form id="kc-form-login" onsubmit="login.disabled = true; return true;" action="${url.loginAction}" method="post">
@@ -98,7 +98,7 @@
                 <div class='loginMainWidgetDiff'>
                     <img src='${url.resourcesPath}/img/loginPageDiff.svg' class="imgDivider" width=300/>
                 </div>
-                <a href='https://nicodenetworks.com/playlist?pl=1DWeZYfgG7OZlyUFUiDai4&v=1' class='loginViewPlTxt'>view playlist</a>
+                <a href='https://festival.ohgw.com/playlist?pl=1DWeZYfgG7OZlyUFUiDai4&v=1' class='loginViewPlTxt'>view playlist</a>
             </div>
         </div>
         </div>
