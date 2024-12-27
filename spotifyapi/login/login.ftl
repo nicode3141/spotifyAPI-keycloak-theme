@@ -15,7 +15,7 @@
             <div class='loginPgImgHelper'>
                 <img src='${url.resourcesPath}/img/playlistCover.png' class='loginPgImage' alt='Playlist Preview Image'>
             </div>
-            <div class='inviteMainTxt'>Jukebox Festival</div>
+            <div class='inviteMainTxt'>Schulball '25</div>
             <div class='mainLoginField'>
                 <#if realm.password>
                     <form id="kc-form-login" onsubmit="login.disabled = true; return true;" action="${url.loginAction}" method="post">
